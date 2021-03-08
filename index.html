@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let input=prompt('bạn có phải admin?');
+        if (input=='admin'){
+            let password=prompt('mời nhập mật khẩu');
+            if (password=='themaster'){
+                document.write('Welcome!!');
+            }
+            else if(password=='null'){
+                document.write('Canceled');
+            }
+            else {
+                document.write('Wrong password!!');
+            }
+        }
+        else  if(input=='null'){
+            document.write('canceled');
+        }
+        else {
+            document.write("i don't know!!");
+        }
+
+    </script>
+</body>
+</html>
